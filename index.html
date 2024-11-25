@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title data-i18n="page_title"></title>    <!-- /SEO Ultimate -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/IBYC_LOGO.svg.png">
+    <!-- 我的修改css -->
+    <link rel="stylesheet" href="assets/css/mystyle.css">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Latest compiled and minified CSS -->
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/js/bootstrap.min.js">
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- StyleSheet link CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="assets/js/language-handler.js"></script>
+    <script src="assets/js/banner-carousel.js"></script>
+    <script src="assets/js/image-carousel.js"></script>
+
+</head>
+
+<body>
+<!--Header  -->
+<div class="banner_outer">
+    <header class="header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!--                <a class="navbar-brand" href="./index.html">-->
+                <!--                    <figure class="mb-0 banner-logo"><img src="./assets/images/logo.png" alt="" class="img-fluid">-->
+                <!--                    </figure>-->
+                <!--                </a>-->
+                <a class="navbar-brand" href="./index.html"
+                   style="color: white; font-size: 36px; text-decoration: none;">
+                    IBYC AI Healthcare
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html" data-i18n="home"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-section" data-i18n="about_us"></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#devices-session" data-i18n="intelligent_devices"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#show-room-session" data-i18n="show_room"></a>
+                        </li>
+                        <li class="nav-space nav-item">
+                            <a class="nav-link" href="#contact-us-session" data-i18n="contact_us"></a>
+                        </li>
+                        <li class="nav-space nav-item dropdown">
+                            <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="#"
+                               id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false" data-i18n="current_language">中文</a>
+                            <div class="dropdown-menu drop-down-content">
+                                <ul class="list-unstyled drop-down-pages">
+                                    <li class="nav-item">
+                                        <a class="dropdown-item nav-link" href="#"
+                                           onclick="changeLanguage('zh')">中文</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item nav-link" href="#" onclick="changeLanguage('en')">English</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <figure class="banner-sideshape mb-0">
+        <img src="./assets/images/banner-sideshape.png" alt="" class="img-fluid">
+    </figure>
+    <!-- Banner -->
+    <section class="banner-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                    <div class="banner_content">
+                        <h1 class="text-white" data-i18n="banner_text.line1"></h1>
+                        <h1 class="text-white" data-i18n="banner_text.line2"></h1>
+                        <p class="text-white" data-i18n="banner_text.description"></p>
+                        <div class="banner-button">
+                            <a class="button1 lets_talk text-decoration-none" href="#about-section"
+                               data-i18n="learn_more">
+                                <i class="circle fa-regular fa-angle-right"></i></a>
+                            <a class="lets_talk text-decoration-none" href="#contact-us-session" data-i18n="contact_us">
+                                <i class="circle fa-regular fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div class="banner_wrapper" data-aos="fade-right">
+                        <figure class="mb-0 banner-image">
+                            <img src="./assets/images/banner-image1.png" alt="Banner 1">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <figure class="banner-sideshape2 mb-0">
+            <img src="./assets/images/banner-sideshape2.png" alt="" class="img-fluid">
+        </figure>
+    </section>
+</div>
+<!-- About us -->
+<section class="about-section" id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="about_wrapper">
+                    <figure class="mb-0 about-image1">
+                        <img src="./assets/images/about-image5.png" alt="" class="img-fluid"
+                             style="border-radius: 45px;">
+                    </figure>
+                    <figure class=" mb-0 about-image2">
+                        <img src="./assets/images/about-image4.png" alt="" class="img-fluid"
+                             style="border-radius: 30px;"></figure>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="about_content" data-aos="fade-right">
+                    <h5 data-i18n="about_us"></h5>
+                    <h2 data-i18n="about_us_content.company_title"></h2>
+                    <div class="about-lowercontent">
+                        <div class="image">
+                            <figure class="mb-0 icon">
+                                <img src="./assets/images/about-quality.png" alt="" class="img-fluid">
+                            </figure>
+                        </div>
+                        <div class="content">
+                            <h4 data-i18n="about_us_content.ai_diagnosis.title"></h4>
+                            <p class="text-size-18 text" data-i18n="about_us_content.ai_diagnosis.description"></p>
+                        </div>
+                        <div class="image">
+                            <figure class="mb-0 icon">
+                                <img src="./assets/images/about-customer.png" alt="" class="img-fluid">
+                            </figure>
+                        </div>
+                        <div class="content">
+                            <h4 data-i18n="about_us_content.remote_healthcare.title"></h4>
+                            <p class="text-size-18" data-i18n="about_us_content.remote_healthcare.description"></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="my-container" id="show-room-session">
+    <div class="row justify-content-center text-center my-4">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <h2 class="fw-bold mb-3" data-i18n="show_room"></h2>
+        </div>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="assets/images/showing_room1.jpg" alt="图1">
+            <img src="assets/images/showing_room2.jpg" alt="图2">
+            <img src="assets/images/showing_room3.jpg" alt="图3">
+        </div>
+        <div class="prev" onclick="prevSlide()">&#10094;</div>
+        <div class="next" onclick="nextSlide()">&#10095;</div>
+    </div>
+
+</section>
+
+<!-- 智能设备新 -->
+<section class="accordian-section" id="devices-session">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="accordian_content">
+                    <!--                    <h5>faq's</h5>-->
+                    <h2 data-i18n="intelligent_devices_content.title"></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row position-relative" data-aos="fade-up">
+            <div class="col-lg-1 col-md-1 col-sm-1 d-lg-block d-none"></div>
+            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                <div class="accordian-section-inner position-relative">
+                    <div class="accordian-inner">
+                        <div id="accordion1">
+                            <div class="accordion-card">
+                                <div class="card-header" id="headingOne">
+                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse"
+                                       data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <h4 data-i18n="intelligent_devices_content.device1_title"></h4>
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+                                    <div class="card-body">
+                                        <p class="text-size-18 text-left mb-0"
+                                           data-i18n="intelligent_devices_content.device1_description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-card">
+                                <div class="card-header" id="headingTwo">
+                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse"
+                                       data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <h4 data-i18n="intelligent_devices_content.device2_title"></h4>
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                                    <div class="card-body">
+                                        <p class="text-size-18 text-left mb-0"
+                                           data-i18n="intelligent_devices_content.device2_description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-card">
+                                <div class="card-header" id="headingThree">
+                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse"
+                                       data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <h4 data-i18n="intelligent_devices_content.device3_title"></h4>
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
+                                    <div class="card-body">
+                                        <p class="text-size-18 text-left mb-0"
+                                           data-i18n="intelligent_devices_content.device3_description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-card">
+                                <div class="card-header" id="headingFour">
+                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse"
+                                       data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <h4 data-i18n="intelligent_devices_content.device4_title"></h4>
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
+                                    <div class="card-body">
+                                        <p class="text-size-18 text-left mb-0"
+                                           data-i18n="intelligent_devices_content.device4_description"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-card">
+                                <div class="card-header" id="headingFive">
+                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse"
+                                       data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <h4 data-i18n="intelligent_devices_content.device5_title"></h4>
+                                    </a>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
+                                    <div class="card-body">
+                                        <p class="text-size-18 text-left mb-0"
+                                           data-i18n="intelligent_devices_content.device5_description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-card">
+                                <div class="card-header" id="headingSix">
+                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse"
+                                       data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <h4 data-i18n="intelligent_devices_content.device6_title"></h4>
+                                    </a>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix">
+                                    <div class="card-body">
+                                        <p class="text-size-18 text-left mb-0"
+                                           data-i18n="intelligent_devices_content.device6_description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-card">
+                                <div class="card-header" id="headingSeven">
+                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse"
+                                       data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        <h4 data-i18n="intelligent_devices_content.device7_title"></h4>
+                                    </a>
+                                </div>
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven">
+                                    <div class="card-body">
+                                        <p class="text-size-18 text-left mb-0"
+                                           data-i18n="intelligent_devices_content.device7_description"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 d-lg-block d-none"></div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<section class="footer-section">
+    <div class="container">
+        <figure class="footer-sideshape mb-0">
+            <img src="./assets/images/footer-sideshape.png" alt="" class="img-fluid">
+        </figure>
+        <div class="middle-portion">
+            <div class="row">
+                <div class="col-lg-4 col-md-5 col-sm-6 col-12">
+                    <a class="navbar-brand" href="./index.html"
+                       style="color: white; font-size: 24px; text-decoration: none;">
+                        IBYC AI Healthcare Inc.
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 col-12 d-md-block d-none">
+                    <div class="links">
+                        <h4 class="heading text-white" data-i18n="footer.quick_links"></h4>
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="fa-solid fa-angle-right"></i><a href="./index.html"
+                                                                          class=" text-size-16 text text-decoration-none"
+                                                                          data-i18n="home"></a>
+                            </li>
+                            <li><i class="fa-solid fa-angle-right"></i><a href="#about-section"
+                                                                          class=" text-size-16 text text-decoration-none"
+                                                                          data-i18n="about_us"></a>
+                            </li>
+                            <li><i class="fa-solid fa-angle-right"></i><a href="#devices-session"
+                                                                          class=" text-size-16 text text-decoration-none"
+                                                                          data-i18n="intelligent_devices_content.title"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-sm-block" id="contact-us-session">
+                    <div class="icon">
+                        <h4 class="heading text-white" data-i18n="footer.contact_us"></h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="text">
+                                <i class="fa fa-phone fa-icon footer-location"></i>
+                                <a href="tel:+4733378901" class="mb-0 text text-decoration-none text-size-16">+61 3 8376
+                                    6284</a></li>
+                            <li class="text">
+                                <i class="fa fa-envelope fa-icon footer-location"></i>
+                                <a href="mailto:info@repay.com" class="mb-0 text text-decoration-none text-size-16">Info@Artelligence.com</a>
+                            </li>
+                            <li class="text">
+                                <i class="fa-solid fa-location-dot footer-location footer-location3"></i>
+                                <p class="text-size-16" data-i18n="footer.address_line1">/p>
+                                <p class="text-size-16" data-i18n="footer.address_line2">/p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="row">
+                <div class="col-12"><p class="mb-0 text-white" data-i18n="footer.copyright"></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Latest compiled JavaScript -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/video_link.js"></script>
+<script src="./assets/js/video.js"></script>
+<script src="assets/js/counter.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/animation_links.js"></script>
+<script src="assets/js/animation.js"></script>
+<script>
+    // 检测浏览器语言
+
+</script>
+
+</body>
+</html>
