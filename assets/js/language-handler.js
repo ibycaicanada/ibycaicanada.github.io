@@ -68,8 +68,8 @@ const translations = {
     footer: {
       quick_links: "快速链接",
       contact_us: "联系我们",
-      address_line1: "1245-4380 No.3 Rd Richmond, BC",
-      address_line2: "V6Y 2C2",
+      address_line1: "920-6388 No.3 Rd Richmond, BC",
+      address_line2: "V6Y 0L4",
       copyright: "© 2024 IBYC AI Healthcare Inc. 版权所有。",
     },
   },
@@ -78,7 +78,7 @@ const translations = {
     brand_name: "IBYC AI Healthcare Inc.",
     home: "Home",
     about_us: "About Us",
-    intelligent_devices: "Intelligent Devices",
+    intelligent_devices: "Smart Devices",
     contact_us: "Contact Us",
     language: {
       zh: "Chinese",
@@ -156,8 +156,8 @@ const translations = {
     footer: {
       quick_links: "Quick Links",
       contact_us: "Contact Us",
-      address_line1: "1245-4380 No.3 Rd Richmond, BC",
-      address_line2: "V6Y 2C2",
+      address_line1: "920-6388 No.3 Rd Richmond, BC",
+      address_line2: "V6Y 0L4",
       copyright: "© 2024 IBYC AI Healthcare Inc. All Rights Reserved.",
     },
   },
