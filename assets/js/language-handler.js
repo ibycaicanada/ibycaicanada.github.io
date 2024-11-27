@@ -36,7 +36,7 @@ const translations = {
       remote_healthcare: {
         title: "远程医疗技术突破",
         description:
-          "BYC 智能医疗平台通过线上问诊、大数据分析比对和使用智能设备，让用户轻松了解自己的健康状况，及时采取保健及治疗措施，帮助用户改善健康状况。\n" +
+          "IBYC 智能医疗平台通过线上问诊、大数据分析比对和使用智能设备，让用户轻松了解自己的健康状况，及时采取保健及治疗措施，帮助用户改善健康状况。\n" +
           "IBYC 的医生和专家们，将通过远程医疗和 AI 辅助诊断，为用户提供更加高效、精准的医疗服务，让健康触手可及。",
       },
     },
@@ -114,11 +114,6 @@ const translations = {
       remote_healthcare: {
         title: "Breakthroughs in Remote Healthcare Technology",
         description:
-          "Remote healthcare technology breaks the geographical limitations of traditional " +
-          "medicine, enabling high-quality medical resources to reach remote areas. Patients can " +
-          "communicate face-to-face with experts through video calls, receiving professional advice " +
-          "and treatment plans.\n" +
-          "\n" +
           "The IBYC smart healthcare platform empowers users to easily understand their health status through online consultations, " +
           "big data comparisons, and smart devices." +
           "It provides timely insights and recommendations for preventive care and treatment," +
